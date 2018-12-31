@@ -6,8 +6,8 @@ module.exports = {
   'output': {
     'path': path.join( __dirname, 'dist' ),
     'filename': 'health-miner-widget.js',
-    'library': 'HealthMiner',
-    'libraryTarget': 'umd'
+    'libraryTarget': 'umd',
+    'library': 'HealthMiner'
   },
   optimization: {
         // We no not want to minimize our code.

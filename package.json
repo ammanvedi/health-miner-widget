@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "webpack",
-    "build-component-only": "webpack --config component.webpack.config.js --mode-production",
+    "build-component-only": "webpack --config component.webpack.config.js --mode=production",
     "serve": "python -m SimpleHTTPServer 9003"
   },
   "author": "amman.vedi@gmail.com",
