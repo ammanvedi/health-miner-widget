@@ -2,10 +2,11 @@
   "name": "health-miner-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/app.bundle.js",
+  "main": "dist/health-miner-widget.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "webpack",
+    "build-component-only": "webpack --config component.webpack.config.js --mode-production",
     "serve": "python -m SimpleHTTPServer 9003"
   },
   "author": "amman.vedi@gmail.com",
